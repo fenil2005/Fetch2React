@@ -1,0 +1,9 @@
+.tablefetch{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    gap: 30px;
+
+} 
