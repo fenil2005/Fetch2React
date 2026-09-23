@@ -18,7 +18,7 @@ function App() {
       }
     }
     fenilfetch();
-  })
+  }, [])
 
   return (
     <>
