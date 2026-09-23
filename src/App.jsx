@@ -18,34 +18,16 @@ function App() {
       }
     }
     fenilfetch();
-  }, [])
+  })
 
   return (
     <>
       <h1>Posts Data</h1>
-      <div className='tablefetch'>
-        <table>
-          <thead>
-            <th>UserId</th>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Body</th>
-          </thead>
-          <tbody>
-            {posts.map((post) => {
-              return (
-                <tr>
-                  <td>{post.userId}</td>
-                  <td>{post.id}</td>
-                  <td>{post.title}</td>
-                  <td>{post.body}</td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      </div>
-      <PostsApp />
+      <h2>Fenil Amit Bhatt</h2>
+      {posts.map((post) => {
+        <PostsApp fenil={bhatt} />
+      })}
+
     </>
   )
 }
